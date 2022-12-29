@@ -1,8 +1,10 @@
-const Pet = (props) => {
+import React from 'react'
+import  ReactDOM from 'react-dom';
+const Pet = (petob) => {
   return React.createElement("div", {}, [
-    React.createElement("h1", {}, props.name),
-    React.createElement("h2", {}, props.animal),
-    React.createElement("h2", {}, props.breed),
+    React.createElement("h1", {}, petob.name),
+    React.createElement("h2", {}, petob.animal),
+    React.createElement("h2", {}, petob.breed),
   ]);
 };
 
