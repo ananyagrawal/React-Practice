@@ -1,5 +1,5 @@
 import React from 'react'
-import  ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 import Pet from './Pet';
 
 // const App = () => {
@@ -26,9 +26,9 @@ const App = () =>{
   return(
     <div>
       <h1>Adopt Me!</h1>
-      <Pet name="Luna" animal="Dog" breed="Havanese"></Pet>
-      <Pet name="Pepper" animal="Bird" breed="Cokatiel"></Pet>
-      <Pet name="Doink" animal="Cat" breed="Mixed"></Pet>
+      <Pet name="Luna" animal="Dog" breed="Havanese"/>
+      <Pet name="Pepper" animal="Bird" breed="Cokatiel"/>
+      <Pet name="Doink" animal="Cat" breed="Mixed"/>
     </div>
   )
 }
