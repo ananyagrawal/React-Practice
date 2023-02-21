@@ -1,9 +1,6 @@
 import React from "react";
 import { useState } from "react";
 const NextImage = () => {
-  //   const img = fetchImage().then((a) => {
-  //     a;
-  //   });
   const [img, setImg] = useState("");
   async function fetchImage() {
     const res = await fetch("https://picsum.photos/v2/list");
