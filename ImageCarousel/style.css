@@ -1,4 +1,22 @@
-.imgContainer {
+* {
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 80%;
+}
+.image {
   width: 400px;
   height: 400px;
+}
+h1 {
+  text-align: center;
 }

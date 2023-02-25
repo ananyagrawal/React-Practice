@@ -1,16 +1,23 @@
 import React from "react";
 import { useState } from "react";
 const NextImage = () => {
-  const [img, setImg] = useState("");
+  const [img, setImg] = useState([]);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   async function fetchImage() {
     const res = await fetch("https://picsum.photos/v2/list");
     const data = await res.json();
-    setImg(data[1].download_url);
+    setImg(data.map((photo) => photo.download_url));
   }
   fetchImage();
   return (
-    <div className="imgContainer">
-      <img className="imgContainer" src={img}></img>
+    <div className="container">
+      <button></button>
+      <div className="image-container">
+        {img.map((image) => (
+          <img key={image} className="image" src={image}></img>
+        ))}
+      </div>
+      <button></button>
     </div>
   );
 };
