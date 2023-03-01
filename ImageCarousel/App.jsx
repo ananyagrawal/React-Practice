@@ -5,7 +5,7 @@ import NextImage from "./NextImage";
 const App = () => {
   return (
     <div>
-      <h1>Project 1</h1>
+      <h1>PROJECT 1</h1>
       <NextImage />
     </div>
   );
