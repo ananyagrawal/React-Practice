@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Anany Agrawal",
+    "age": 20,
+    "major": "Computer Science"
+  },
+  {
+    "name": "Yash Porwal",
+    "age": 21,
+    "major": "Psychology"
+  },
+  {
+    "name": "Vinay Chandola",
+    "age": 19,
+    "major": "History"
+  }
+]
